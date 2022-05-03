@@ -22,10 +22,10 @@ public class Main {
                 selecao = new Scanner(System.in).nextInt();
 
                 if (selecao < 0) {
-                    System.out.println("\n\nDigite uma opção VÁLIDA!\n\n");
+                    System.out.println("\n\nDIGITE UMA OPÇÃO VÁLIDA!\n\n");
                     continue;
                 } else if (selecao > 8) {
-                    System.out.println("\n\nDigite uma opção VÁLIDA!\n\n");
+                    System.out.println("\n\nDIGITE UMA OPÇÃO VÁLIDA!\n\n");
                     continue;
                 }else{
                     break;
